@@ -1,11 +1,25 @@
+/* Top heading want to center with border wrapped around. */
+#form-heading {
+    display: inline-block;
+}
+
 h2 {
-    text-align: center;
+    border: 2px solid;
+    position: relative;
+    left: 85%;
+    padding: 20px;
 }
 
 form {
     text-align: center;
+    border: 2px solid;
+    display: block;
 }
 
 p {
-    font-weight: bold;
+    font-weight: bold;   
+}
+
+#form {
+    border: 2px solid;
 }
