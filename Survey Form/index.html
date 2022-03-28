@@ -6,18 +6,24 @@
     </head>
     <body>
 
-      <h2>Kindly tell us about your meditation habits?</h2>
+      <!-- Heading title of form -->
+      <div id="form-heading">
+        <h2>Kindly tell us about your meditation habits?</h2>
+      </div>
 
+      <!-- Meditation Survey Form Questions -->
       <form>
           <label for="'fname"><strong>First Name:</strong></label><br>
           <input type="text" id="fname"><br>
           <label for="'fname"><strong>Last Name:</strong></label><br>
           <input type="text" id="lname"><br>
+
           <p>How often do you meditate?</p>
             <input type="radio" id="daily" name="daily_weekly" value="daily">
             <label for="daily">Daily</label>
             <input type="radio" id="weekly" name="daily_weekly" value="weekly">
             <label for="daily">Weekly</label>
+
           <p>How many times per day?</p>
             <input type="radio" id="once" name="per_day" value="once">
             <label for="once">Once</label>
@@ -25,6 +31,7 @@
             <label for="twice">Twice</label>
             <input type="radio" id="more" name="per_day" value="more">
             <label for="more">More Than Twice</label>
+
           <p>What experience level would you consider yourself?</p>
             <input type="radio" id="begginer" name="experience_level" value="begginer">
             <label for="begginer">Begginer</label>
@@ -34,6 +41,7 @@
             <label for="advanced">Advanced</label>
             <input type="radio" id="guru" name="experience_level" value="guru">
             <label for="guru">Guru</label>
+
           <p>What do you consider the purpose of your meditaiton? (Check all that apply)</p>
             <input type="checkbox" id="purpose1" name="purpose1" value="focus">
             <label for="purpose1">Focus</label>
@@ -45,8 +53,9 @@
             <label for="purpose4">Calmness</label>
             <input type="checkbox" id="purpose5" name="purpose5" value="gratitude">
             <label for="purpose5">Gratitude</label><br><br>
+            
           <input type="submit" value="Submit">
-      </form>
+        </form>
 
     </body>
 </html>
