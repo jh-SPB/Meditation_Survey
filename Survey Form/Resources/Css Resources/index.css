@@ -6,13 +6,12 @@
 h2 {
     border: 2px solid;
     position: relative;
-    left: 85%;
+    left: 120%;
     padding: 20px;
 }
 
 form {
     text-align: center;
-    border: 2px solid;
     display: block;
 }
 
